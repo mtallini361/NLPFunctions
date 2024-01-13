@@ -3,9 +3,9 @@ import pytest
 
 @pytest.fixture
 def string1():
-    return "execution"
+    return "intention"
 
 
 @pytest.fixture
 def string2():
-    return "intention"
+    return "execution"
