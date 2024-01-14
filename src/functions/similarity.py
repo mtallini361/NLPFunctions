@@ -1,8 +1,6 @@
 def minimal_edit_distance(string1, string2):
     n = len(string1) + 1
     m = len(string2) + 1
-    print(n)
-    print(m)
 
     D = [[0 for _ in range(m)] for _ in range(n)]
 
@@ -24,4 +22,4 @@ def minimal_edit_distance(string1, string2):
                 D[i][j - 1] + 1
             )
 
-    return D
+    return D[n][m]
