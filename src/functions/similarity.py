@@ -22,4 +22,4 @@ def minimal_edit_distance(string1, string2):
                 D[i][j - 1] + 1
             )
 
-    return D[n][m]
+    return D[n - 1][m - 1]
