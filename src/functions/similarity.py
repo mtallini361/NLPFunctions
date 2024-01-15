@@ -1,4 +1,4 @@
-from assets.logger import log_run
+from functions.assets.logger import log_run
 
 @log_run
 def minimal_edit_distance(string1, string2):
