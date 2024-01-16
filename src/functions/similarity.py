@@ -1,3 +1,6 @@
+from functions.assets.logger import log_run
+
+@log_run
 def minimal_edit_distance(string1, string2):
     n = len(string1) + 1
     m = len(string2) + 1
